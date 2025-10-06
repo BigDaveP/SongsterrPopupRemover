@@ -13,11 +13,15 @@
   "use strict";
 
   function removePopup() {
-    const classNames = ["Cip2pk", "rq25k", "Cto1rx", "D5an6"];
+    const classNames = ["Cip2pk", "rq25k", "Cto1rx", "D5an6", "C8325s", "B3a4ku"];
     classNames.forEach((className) => {
       const elements = document.querySelectorAll(`.${className}`);
       elements.forEach((el) => el.remove());
     });
+
+      const classToRemove = "uxw1uw";
+      var elementToRemoveBlur = document.querySelectorAll(`.${classToRemove}`)
+      elementToRemoveBlur.forEach((el) => el.removeAttribute("class"));
   }
 
   const observer = new MutationObserver(() => {
