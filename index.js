@@ -13,7 +13,15 @@
   "use strict";
 
   function removePopup() {
-    const classNames = ["Cip2pk", "rq25k", "Cto1rx", "D5an6"];
+    const classNames = [
+      "Cip2pk",
+      "rq25k",
+      "Cto1rx",
+      "D5an6",
+      "uxw1uw",
+      "C8325s",
+      "B3a4ku",
+    ];
     classNames.forEach((className) => {
       const elements = document.querySelectorAll(`.${className}`);
       elements.forEach((el) => el.remove());
